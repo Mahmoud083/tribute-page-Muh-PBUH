@@ -1,0 +1,78 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url("https://i.imgur.com/NJXrpQh.png") repeat center center fixed;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+  color: #2c3e50;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(255, 255, 255, 0.92);
+  z-index: -1;
+}
+
+main {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px 30px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+  border: 1px solid #eee;
+}
+
+#title {
+  text-align: center;
+  color: #1b5e20;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+#img-div {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  border: 2px solid #1b5e20;
+  background: white;
+}
+
+#img-caption {
+  font-size: 0.95em;
+  margin-top: 10px;
+  color: #555;
+}
+
+#tribute-info {
+  font-size: 1.1em;
+  line-height: 1.8;
+  text-align: justify;
+  color: #2e2e2e;
+}
+
+#tribute-link {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 20px;
+  background-color: #2e7d32;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+#tribute-link:hover {
+  background-color: #1b5e20;
+}
